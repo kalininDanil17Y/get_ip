@@ -11,38 +11,6 @@ try {
     die($e->getMessage());
 }
 
-// Returning string
-$info->getStatus();
-$info->getIp();
-$info->getContinent();
-$info->getContinentCode();
-$info->getCountry();
-$info->getCountryCode();
-$info->getCurrency();
-$info->getRegionName();
-$info->getCity();
-$info->getTimezone();
-$info->getZip();
-$info->getRegion();
-
-$info->toJson();
-$info->getLocation()->toJson();
-$info->getPrivacy()->toJson();
-
-// int
-$info->getLocation()->getLat();
-$info->getLocation()->getLon();
-
-//bool
-$info->getPrivacy()->getMobile();
-$info->getPrivacy()->getProxy();
-$info->getPrivacy()->getHosting();
-
-// array
-$info->toArray();
-$info->getLocation()->toArray();
-$info->getPrivacy()->toArray();
-
 ?>
 <!DOCTYPE html>
 <html lang="ru">
