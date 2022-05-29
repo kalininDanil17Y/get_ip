@@ -14,5 +14,8 @@
             "email": "my@ro2005.ru"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-curl": "*",
+        "ext-json": "*"
+    }
 }
