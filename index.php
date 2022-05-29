@@ -3,7 +3,7 @@ require './vendor/autoload.php';
 
 use Danilo9\GetIp\GetIp;
 
-$getIp = new GetIp();
+$getIp = new GetIp(['lang' => 'en']);
 
 try {
     $info = $getIp->process('176.59.134.100');
