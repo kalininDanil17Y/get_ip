@@ -7,7 +7,7 @@ namespace Danilo9\GetIp\Entity;
  * Class LocationEntity
  * @package Danilo9\GetIp\Entity
  */
-class LocationEntity
+class LocationEntity extends AbstractEntity
 {
     private float $lat = 0;
     private float $lon = 0;

@@ -7,7 +7,7 @@ namespace Danilo9\GetIp\Entity;
  * Class PrivacyEntiry
  * @package Danilo9\GetIp\Entity
  */
-class PrivacyEntity
+class PrivacyEntity extends AbstractEntity
 {
     private bool $proxy = false;
     private bool $mobile = false;
