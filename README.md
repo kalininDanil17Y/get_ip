@@ -38,10 +38,16 @@ use Danilo9\GetIp\GetIp;
 $getIp = new GetIp();
 ```
 
+Options:
+```php
+$getIp = new GetIp(['lang' => 'ru']);
+```
+
 Get information about ip:
 ```php
 $info = $getIp->process('176.59.134.100');
 ```
+
 The default is ```$_SERVER['REMOTE_ADDR']```
 
 Get information
