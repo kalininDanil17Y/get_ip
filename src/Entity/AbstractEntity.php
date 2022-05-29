@@ -1,17 +1,33 @@
 <?php
-namespace danilo9\AbstractEntity;
 
+
+namespace Danilo9\GetIp\Entity;
+
+/**
+ * Class AbstractEntity
+ * @package Danilo9\GetIp\Entity
+ */
 class AbstractEntity
 {
-    private $ip;
-    private $lat;
-    private $lon;
+    /**
+     * AbstractEntity constructor.
+     */
+    public function __construct()
+    {}
 
-    public function rand(){
-        return $rand;
+    /*
+     *
+     */
+    public function toArray(): array
+    {
+        return [];
     }
 
-    public function getIp(){
-        return $this->ip;
+    /**
+     * @return string
+     */
+    public function toJson(): string
+    {
+        return json_encode($this->toArray(), JSON_UNESCAPED_UNICODE);
     }
 }
