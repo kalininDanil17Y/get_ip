@@ -29,24 +29,16 @@ class GetIp
     public function __construct(array $options = [])
     {
         if (!empty($options['key']))
-        {
             $this->key = $options['key'];
-        }
 
         if (!empty($options['lang']))
-        {
             $this->lang = $options['lang'];
-        }
 
         if (!empty($options['fields']))
-        {
             $this->fields = $options['fields'];
-        }
 
         if (!empty($options['headers']))
-        {
             $this->headers = $options['headers'];
-        }
     }
 
     /**
