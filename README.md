@@ -79,6 +79,10 @@ $info->getPrivacy()->getHosting();
 $info->toArray();
 $info->getLocation()->toArray();
 $info->getPrivacy()->toArray();
+// jSON
+$info->toJson();
+$info->getLocation()->toJson();
+$info->getPrivacy()->toJson();
 ```
 
 ## License
